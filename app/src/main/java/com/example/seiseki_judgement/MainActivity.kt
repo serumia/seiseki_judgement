@@ -16,15 +16,10 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        button.setOnClickListener {
-            val intent = Intent(this, activity_sub_1::class.java)
-            startActivity(intent)
-        }
-        }
-        }
+    }
 
-    fun onSub1BottunTapped(view: View?){
-        val intent = this; ::class.java
-        startActivity(intent)
+    fun sub_1tapped(vier: View?){
+    val intent = Intent(this, avtivity_sub_1::class.java)
+    startActivity(intent)
     }
 }

@@ -17,25 +17,25 @@
                 android:id="@+id/sub_name"
                 android:layout_width="80dp"
                 android:layout_height="37dp"
-                android:text="国語" />
+                android:text="@string/国語" />
 
             <TextView
                 android:id="@+id/test_1"
                 android:layout_width="80dp"
                 android:layout_height="match_parent"
-                android:text="テスト１" />
+                android:text="@string/テスト１" />
 
             <TextView
                 android:id="@+id/test_2"
                 android:layout_width="80dp"
                 android:layout_height="match_parent"
-                android:text="テスト２" />
+                android:text="@string/テスト２" />
 
             <TextView
                 android:id="@+id/test_3"
                 android:layout_width="80dp"
                 android:layout_height="match_parent"
-                android:text="テスト３" />
+                android:text="@string/テスト３" />
         </TableRow>
 
         <TableRow
@@ -45,26 +45,26 @@
             <TextView
                 android:id="@+id/sub_1_name"
                 android:layout_width="wrap_content"
-                android:layout_height="39dp"
-                android:text="null" />
+                android:layout_height="wrap_content"
+                android:text="@string/null" />
 
             <TextView
                 android:id="@+id/score_1_1"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:text="59" />
+                android:text="@string/_59" />
 
             <TextView
                 android:id="@+id/score_1_2"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:text="59" />
+                android:text="@string/_59" />
 
             <TextView
                 android:id="@+id/score_1_3"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:text="100" />
+                android:text="@string/_100" />
         </TableRow>
 
         <TableRow
@@ -75,25 +75,25 @@
                 android:id="@+id/textView16"
                 android:layout_width="wrap_content"
                 android:layout_height="36dp"
-                android:text="null" />
+                android:text="@string/null" />
 
             <TextView
                 android:id="@+id/avarage"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:text="平均点" />
+                android:text="@string/平易院展" />
 
             <TextView
                 android:id="@+id/need_point"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:text="赤点まで" />
+                android:text="@string/赤点まで" />
 
             <TextView
                 android:id="@+id/judgment"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:text="現状" />
+                android:text="@string/現状" />
         </TableRow>
 
         <TableRow
@@ -104,25 +104,26 @@
                 android:id="@+id/score_sec"
                 android:layout_width="wrap_content"
                 android:layout_height="45dp"
-                android:text="null" />
+                android:text="@string/null" />
 
             <TextView
                 android:id="@+id/average_score"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:text="0" />
+                android:text="@string/_0" />
 
             <TextView
                 android:id="@+id/need_score"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:text="240" />
+                android:text="@string/_240" />
 
             <TextView
                 android:id="@+id/judgment_score"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:text="不可" />
+                android:text="@string/不可" />
+
         </TableRow>
     </TableLayout>
 
