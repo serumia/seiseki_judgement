@@ -1,12 +1,9 @@
 package com.example.seiseki_judgement
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
-import android.intent
 import android.os.Bundle
 import android.view.View
-import android.widget.TextView
-import android.widget.Button
-import android.view.View.OnSub1BottunTapped
 
 
 
@@ -19,7 +16,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     fun sub_1tapped(vier: View?){
-    val intent = Intent(this, avtivity_sub_1::class.java)
+    val intent = Intent(this, sub1Activity::class.java)
     startActivity(intent)
     }
 }

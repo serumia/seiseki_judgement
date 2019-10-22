@@ -6,6 +6,7 @@
     android:orientation="horizontal">
 
     <TableLayout
+        android:id="@+id/sub_1_table"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 

@@ -9,5 +9,6 @@
         android:id="@+id/seiseki_catch"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        app:srcCompat="@drawable/seiseki_judgement_catch" />
+        app:srcCompat="@drawable/seiseki_judgement_catch"
+        android:contentDescription="@string/todo" />
 </RelativeLayout>
