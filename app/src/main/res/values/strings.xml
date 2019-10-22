@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">seiseki_judgement</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="add_widget">Add widget</string>
+    <string name="英語">英語</string>
+    <string name="数学">数学</string>
+    <string name="国語">国語</string>
 </resources>

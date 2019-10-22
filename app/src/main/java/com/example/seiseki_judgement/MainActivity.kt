@@ -3,6 +3,7 @@ package com.example.seiseki_judgement
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import kotlinx.android.synthetic.main.activity_main.
+import android.view
 
 
 
@@ -12,18 +13,10 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        sub1.setOnClickListener {
-            val intent = Intent(this, sub1_main::class.java)
-            startActivity(intent)
-        }
-            sub2.setOnClickListener {
-                val intent = Intent(this, sub2_main::class.java)
-                startActivity(intent)
-            }
+    }
 
-                sub3.setOnClickListener{
-                    val intent = Intent(this, sub3_main::class.java)
-                    startActivity(intent)
-        }
+    fun onSub1BottunTapped(view: ?){
+        val intent = this; sub1_main::class.java
+        startActivity(intent)
     }
 }

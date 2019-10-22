@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/hor_1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:id="@+id/sub_name"
+                android:layout_width="80dp"
+                android:layout_height="37dp"
+                android:text="国語" />
+
+            <TextView
+                android:id="@+id/test_1"
+                android:layout_width="80dp"
+                android:layout_height="match_parent"
+                android:text="テスト１" />
+
+            <TextView
+                android:id="@+id/test_2"
+                android:layout_width="80dp"
+                android:layout_height="match_parent"
+                android:text="テスト２" />
+
+            <TextView
+                android:id="@+id/test_3"
+                android:layout_width="80dp"
+                android:layout_height="match_parent"
+                android:text="テスト３" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:id="@+id/sub_1_name"
+                android:layout_width="wrap_content"
+                android:layout_height="39dp"
+                android:text="null" />
+
+            <TextView
+                android:id="@+id/score_1_1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="59" />
+
+            <TextView
+                android:id="@+id/score_1_2"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="59" />
+
+            <TextView
+                android:id="@+id/score_1_3"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="100" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="wrap_content"
+                android:layout_height="36dp"
+                android:text="null" />
+
+            <TextView
+                android:id="@+id/avarage"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="平均点" />
+
+            <TextView
+                android:id="@+id/need_point"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="赤点まで" />
+
+            <TextView
+                android:id="@+id/judgment"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="現状" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="28dp">
+
+            <TextView
+                android:id="@+id/score_sec"
+                android:layout_width="wrap_content"
+                android:layout_height="45dp"
+                android:text="null" />
+
+            <TextView
+                android:id="@+id/average_score"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="0" />
+
+            <TextView
+                android:id="@+id/need_score"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="240" />
+
+            <TextView
+                android:id="@+id/ judgment_score"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="不可" />
+        </TableRow>
+    </TableLayout>
+
+</LinearLayout>
