@@ -1,6 +1,7 @@
 package com.example.seiseki_judgement
 
 import androidx.appcompat.app.AppCompatActivity
+import android.intent
 import android.os.Bundle
 import android.view.View
 import android.widget.TextView
