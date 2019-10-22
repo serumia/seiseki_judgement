@@ -3,7 +3,8 @@ package com.example.seiseki_judgement
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import kotlinx.android.synthetic.main.activity_main.
-import android.view
+import android.view.View
+import android.intent
 
 
 
@@ -15,7 +16,7 @@ class MainActivity : AppCompatActivity() {
 
     }
 
-    fun onSub1BottunTapped(view: ?){
+    fun onSub1BottunTapped(view: View?){
         val intent = this; sub1_main::class.java
         startActivity(intent)
     }
