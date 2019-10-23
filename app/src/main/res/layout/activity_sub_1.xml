@@ -1,14 +1,16 @@
 <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
     android:layout_width="fill_parent"
     android:layout_height="match_parent"
     android:stretchColumns="0,1,2"
     android:gravity="center">
+
     <TableRow
         android:background="#FFFFFF"
         android:layout_width="fill_parent"
-        android:layout_height="0dp"
+        android:layout_height="3dp"
         android:layout_margin="1dp"
-        android:layout_weight="1"
+        android:layout_weight="0.01"
         >
         <TableRow
             android:background="#000000"
@@ -17,53 +19,66 @@
             android:layout_margin="1dp"
             android:layout_weight="1"
             >
+
+
+
         </TableRow>
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:text="@string/教科名"
+            android:gravity="center"
+            android:textStyle="bold"
+            />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/戻る" />
+
     </TableRow>
+
     <TableRow
         android:background="#000000"
         android:layout_width="fill_parent"
         android:layout_height="0dp"
         android:layout_margin="1dp"
-        android:layout_weight="1"
+        android:layout_weight="0"
+
         >
+
         <TextView
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="150dp"
             android:textAppearance="?android:attr/textAppearanceLarge"
-            android:text="@string/テスト１"
+            android:text="@string/前期中間"
             android:layout_margin="1dp"
             android:layout_column="0"
             android:background="#FFFFFF"
             android:textStyle="bold"
             android:gravity="center"
             />
+
         <TextView
             android:layout_width="wrap_content"
-            android:layout_height="match_parent"
+            android:layout_height="150dp"
             android:textAppearance="?android:attr/textAppearanceLarge"
-            android:text="@string/テスト２"
+            android:text="@string/前期末"
             android:layout_margin="1dp"
             android:layout_column="1"
             android:background="#FFFFFF"
             android:gravity="center"
             android:textStyle="bold"
             />
+
         <TextView
             android:layout_width="wrap_content"
-            android:layout_height="match_parent"
+            android:layout_height="150dp"
             android:textAppearance="?android:attr/textAppearanceLarge"
-            android:text="@string/テスト３"
-            android:layout_margin="1dp"
-            android:background="#FFFFFF"
-            android:gravity="center"
-            android:textStyle="bold"
-            android:layout_column="2"
-            />
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:textAppearance="?android:attr/textAppearanceLarge"
-            android:text="@string/_4"
+            android:text="@string/後期中間"
             android:layout_margin="1dp"
             android:background="#FFFFFF"
             android:gravity="center"
@@ -71,145 +86,119 @@
             android:layout_column="2"
             />
 
-    </TableRow>
-    <TableRow
-        android:background="#000000"
-        android:layout_width="fill_parent"
-        android:layout_height="0dp"
-        android:layout_margin="1dp"
-        android:layout_weight="1"
-        >
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:textAppearance="?android:attr/textAppearanceLarge"
-            android:text="@string/text"
-            android:layout_margin="1dp"
-            android:layout_column="0"
-            android:background="#FFFFFF"
-            android:gravity="center"
-            />
         <TextView
             android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:textAppearance="?android:attr/textAppearanceLarge"
-            android:text="@string/text"
-            android:layout_margin="1dp"
-            android:layout_column="1"
-            android:background="#FFFFFF"
-            android:gravity="center"
-            />
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:textAppearance="?android:attr/textAppearanceLarge"
-            android:text="@string/text"
+            android:layout_height="150dp"
+            android:layout_column="2"
             android:layout_margin="1dp"
             android:background="#FFFFFF"
             android:gravity="center"
-            android:layout_column="2" />
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
+            android:text="@string/学年末"
             android:textAppearance="?android:attr/textAppearanceLarge"
-            android:text="@string/text"
-            android:layout_margin="1dp"
-            android:background="#FFFFFF"
-            android:gravity="center"
-            android:layout_column="2" />
+            android:textStyle="bold" />
 
     </TableRow>
+
     <TableRow
         android:background="#000000"
         android:layout_width="fill_parent"
         android:layout_height="0dp"
         android:layout_margin="1dp"
-        android:layout_weight="1"
+        android:layout_weight="0"
         >
-        <TextView
+
+        <EditText
+            android:inputType="number"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="150dp"
             android:textAppearance="?android:attr/textAppearanceLarge"
-            android:text="@string/text"
+            android:text="@string/点数"
             android:layout_margin="1dp"
             android:layout_column="0"
             android:background="#FFFFFF"
             android:gravity="center"
-            />
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
+            android:autofillHints="" />
+
+        <EditText
+            android:inputType="number"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
             android:textAppearance="?android:attr/textAppearanceLarge"
-            android:text="@string/text"
+            android:text="@string/点数"
             android:layout_margin="1dp"
-            android:layout_column="1"
+            android:layout_column="0"
             android:background="#FFFFFF"
             android:gravity="center"
-            />
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
+            android:autofillHints="" />
+
+        <EditText
+            android:inputType="number"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
             android:textAppearance="?android:attr/textAppearanceLarge"
-            android:text="@string/text"
+            android:text="@string/点数"
             android:layout_margin="1dp"
+            android:layout_column="0"
             android:background="#FFFFFF"
             android:gravity="center"
-            android:layout_column="2" />
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
+            android:autofillHints="" />
+
+        <EditText
+            android:inputType="number"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
             android:textAppearance="?android:attr/textAppearanceLarge"
-            android:text="@string/text"
+            android:text="@string/点数"
             android:layout_margin="1dp"
+            android:layout_column="0"
             android:background="#FFFFFF"
             android:gravity="center"
-            android:layout_column="2" />
+            android:autofillHints="" />
+
     </TableRow>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="132dp"
+        android:layout_height="50dp"
+        android:text="@string/合計点数"
+        android:gravity="center"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="132dp"
+        android:layout_height="50dp"
+        android:text="@string/合計"
+        android:gravity="center"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="132dp"
+        android:layout_height="50dp"
+        android:text="@string/単位"
+        android:gravity="center"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:text="@string/計算結果"
+        android:gravity="center"
+        android:textStyle="bold"
+        />
+
     <TableRow
-        android:background="#000000"
+        android:background="#FFFFFF"
         android:layout_width="fill_parent"
-        android:layout_height="0dp"
+        android:layout_height="3dp"
         android:layout_margin="1dp"
-        android:layout_weight="1"
-        >
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:textAppearance="?android:attr/textAppearanceLarge"
-            android:text="@string/text"
-            android:layout_margin="1dp"
-            android:layout_column="0"
-            android:background="#FFFFFF"
-            android:gravity="center"
-            />
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:textAppearance="?android:attr/textAppearanceLarge"
-            android:text="@string/text"
-            android:layout_margin="1dp"
-            android:layout_column="1"
-            android:background="#FFFFFF"
-            android:gravity="center"
-            />
-        <TextView
-            android:id="@+id/appwidget_text"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:layout_column="2"
-            android:layout_margin="1dp"
-            android:background="#FFFFFF"
-            android:gravity="center"
-            android:text="@string/text"
-            android:textAppearance="?android:attr/textAppearanceLarge" />
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:layout_column="2"
-            android:layout_margin="1dp"
-            android:background="#FFFFFF"
-            android:gravity="center"
-            android:text="@string/text"
-            android:textAppearance="?android:attr/textAppearanceLarge" />
-    </TableRow>
+        android:layout_weight="0.05"
+        />
+
 </TableLayout>

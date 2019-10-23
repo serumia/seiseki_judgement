@@ -25,4 +25,15 @@
     <string name="tesuto">テスト4</string>
     <string name="テスト４">テスト４</string>
     <string name="_4">テスト4</string>
+    <string name="教科名">教科名</string>
+    <string name="戻る">戻る</string>
+    <string name="合計点数">-合計点数-</string>
+    <string name="前期中間">前期中間</string>
+    <string name="合計">＜実際の合計点数の表示＞</string>
+    <string name="前期末">前期末</string>
+    <string name="単位">-単位取得までの点数-</string>
+    <string name="点数">点数</string>
+    <string name="計算結果">＜２４０−合計点数の計算結果＞</string>
+    <string name="後期中間">後期中間</string>
+    <string name="学年末">学年末</string>
 </resources>
