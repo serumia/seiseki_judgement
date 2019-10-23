@@ -16,20 +16,21 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/sub1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="40dp"
-        android:layout_marginLeft="40dp"
-        android:layout_marginTop="45dp"
-        android:layout_marginEnd="283dp"
-        android:layout_marginRight="283dp"
-        android:layout_marginBottom="14dp"
-        android:text="@string/国語"
-        app:layout_constraintBottom_toTopOf="@+id/sub2"
+        android:id="@+id/sub3"
+        android:layout_width="88dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="42dp"
+        android:layout_marginLeft="42dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginRight="32dp"
+        android:layout_marginBottom="32dp"
+        android:text="@string/英語"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
 
     <Button
         android:id="@+id/sub2"
@@ -37,31 +38,32 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="40dp"
         android:layout_marginLeft="40dp"
-        android:layout_marginTop="14dp"
         android:layout_marginEnd="283dp"
         android:layout_marginRight="283dp"
-        android:layout_marginBottom="27dp"
         android:text="@string/数学"
-        app:layout_constraintBottom_toTopOf="@+id/sub3"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/sub1" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.499" />
 
     <Button
-        android:id="@+id/sub3"
-        android:layout_width="88dp"
-        android:layout_height="51dp"
-        android:layout_marginStart="42dp"
-        android:layout_marginLeft="42dp"
-        android:layout_marginTop="20dp"
-        android:layout_marginEnd="281dp"
-        android:layout_marginRight="281dp"
-        android:layout_marginBottom="494dp"
-        android:text="@string/英語"
+        android:id="@+id/sub1"
+        style="@android:style/Widget.Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginEnd="283dp"
+        android:layout_marginRight="283dp"
+        android:onClick="sub_1tapped"
+        android:text="@string/国語"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/sub2" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.177" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

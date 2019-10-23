@@ -17,6 +17,9 @@
     <string name="_0">0</string>
     <string name="_240">240</string>
     <string name="不可">不可</string>
-    <string name="nall" tools:ignore="DuplicateDefinition">nall</string>
     <string name="todo">TODO</string>
+    <string name="miles">Miles</string>
+    <string name="calories">Calories</string>
+    <string name="date">Date</string>
+    <string name="text">Text</string>
 </resources>
