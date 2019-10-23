@@ -57,7 +57,7 @@
         android:layout_marginLeft="40dp"
         android:layout_marginEnd="283dp"
         android:layout_marginRight="283dp"
-        android:onClick="sub_1tapped"
+        android:onClick="sub1tapped"
         android:text="@string/国語"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
