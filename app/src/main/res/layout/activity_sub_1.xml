@@ -28,16 +28,16 @@
             android:id="@+id/textView4"
             android:layout_width="wrap_content"
             android:layout_height="30dp"
-            android:text="@string/教科名"
+            android:text="教科名"
             android:gravity="center"
             android:textStyle="bold"
             />
 
         <Button
-            android:id="@+id/button"
+            android:id="@+id/button0"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/戻る" />
+            android:text="戻る" />
 
     </TableRow>
 
@@ -54,7 +54,7 @@
             android:layout_width="match_parent"
             android:layout_height="150dp"
             android:textAppearance="?android:attr/textAppearanceLarge"
-            android:text="@string/前期中間"
+            android:text="前期中間"
             android:layout_margin="1dp"
             android:layout_column="0"
             android:background="#FFFFFF"
@@ -66,7 +66,7 @@
             android:layout_width="wrap_content"
             android:layout_height="150dp"
             android:textAppearance="?android:attr/textAppearanceLarge"
-            android:text="@string/前期末"
+            android:text=" 前期末 "
             android:layout_margin="1dp"
             android:layout_column="1"
             android:background="#FFFFFF"
@@ -78,7 +78,7 @@
             android:layout_width="wrap_content"
             android:layout_height="150dp"
             android:textAppearance="?android:attr/textAppearanceLarge"
-            android:text="@string/後期中間"
+            android:text="後期中間"
             android:layout_margin="1dp"
             android:background="#FFFFFF"
             android:gravity="center"
@@ -93,7 +93,7 @@
             android:layout_margin="1dp"
             android:background="#FFFFFF"
             android:gravity="center"
-            android:text="@string/学年末"
+            android:text="  学年末  "
             android:textAppearance="?android:attr/textAppearanceLarge"
             android:textStyle="bold" />
 
@@ -108,69 +108,76 @@
         >
 
         <EditText
-            android:inputType="number"
+            android:id="@+id/tenn1"
             android:layout_width="match_parent"
             android:layout_height="150dp"
-            android:textAppearance="?android:attr/textAppearanceLarge"
-            android:text="@string/点数"
-            android:layout_margin="1dp"
             android:layout_column="0"
+            android:layout_margin="1dp"
             android:background="#FFFFFF"
             android:gravity="center"
-            android:autofillHints="" />
+            android:inputType="number"
+            android:text="00"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
 
         <EditText
-            android:inputType="number"
+            android:id="@+id/tenn2"
             android:layout_width="match_parent"
             android:layout_height="150dp"
-            android:textAppearance="?android:attr/textAppearanceLarge"
-            android:text="@string/点数"
-            android:layout_margin="1dp"
             android:layout_column="0"
+            android:layout_margin="1dp"
             android:background="#FFFFFF"
             android:gravity="center"
-            android:autofillHints="" />
+            android:inputType="number"
+            android:text="00"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
 
         <EditText
-            android:inputType="number"
+            android:id="@+id/tenn3"
             android:layout_width="match_parent"
             android:layout_height="150dp"
-            android:textAppearance="?android:attr/textAppearanceLarge"
-            android:text="@string/点数"
-            android:layout_margin="1dp"
             android:layout_column="0"
+            android:layout_margin="1dp"
             android:background="#FFFFFF"
             android:gravity="center"
-            android:autofillHints="" />
+            android:inputType="number"
+            android:text="00"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
 
         <EditText
-            android:inputType="number"
+            android:id="@+id/tenn4"
             android:layout_width="match_parent"
             android:layout_height="150dp"
-            android:textAppearance="?android:attr/textAppearanceLarge"
-            android:text="@string/点数"
-            android:layout_margin="1dp"
             android:layout_column="0"
+            android:layout_margin="1dp"
             android:background="#FFFFFF"
             android:gravity="center"
-            android:autofillHints="" />
+            android:inputType="number"
+            android:text="00"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
 
     </TableRow>
 
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="goukei"
+        android:text="決定" />
+
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/TextView0"
         android:layout_width="132dp"
         android:layout_height="50dp"
-        android:text="@string/合計点数"
+        android:text="-合計点数-"
         android:gravity="center"
         android:textStyle="bold"
         />
 
     <TextView
-        android:id="@+id/textView1"
+        android:id="@+id/TextView1"
         android:layout_width="132dp"
         android:layout_height="50dp"
-        android:text="@string/合計"
+        android:text="＜実際の合計点数の表示＞"
         android:gravity="center"
         android:textStyle="bold"
         />
@@ -179,7 +186,7 @@
         android:id="@+id/textView2"
         android:layout_width="132dp"
         android:layout_height="50dp"
-        android:text="@string/単位"
+        android:text="-単位取得までの点数-"
         android:gravity="center"
         android:textStyle="bold"
         />
@@ -188,7 +195,7 @@
         android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="50dp"
-        android:text="@string/計算結果"
+        android:text="＜２４０−合計点数の計算結果＞"
         android:gravity="center"
         android:textStyle="bold"
         />
