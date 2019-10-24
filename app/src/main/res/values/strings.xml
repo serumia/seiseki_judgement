@@ -34,6 +34,10 @@
     <string name="単位">-単位取得までの点数-</string>
     <string name="点数">点数</string>
     <string name="計算結果">＜２４０−合計点数の計算結果＞</string>
-    <string name="後期中間">後期中間</string>
+    <string name="決定">決定</string>
+    <string name="_00">00</string>
     <string name="学年末">学年末</string>
+    <string name="単位点数">-単位取得までの点数-</string>
+    <string name="点数計算">＜２４０−合計点数の計算結果＞</string>
+    <string name="p">後期中間</string>
 </resources>

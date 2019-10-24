@@ -1,25 +1,24 @@
 <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
 
+    android:id="@+id/sub1_Actiity"
     android:layout_width="fill_parent"
     android:layout_height="match_parent"
-    android:stretchColumns="0,1,2"
-    android:gravity="center">
+    android:gravity="center"
+    android:stretchColumns="0,1,2">
 
     <TableRow
-        android:background="#FFFFFF"
         android:layout_width="fill_parent"
         android:layout_height="3dp"
         android:layout_margin="1dp"
         android:layout_weight="0.01"
-        >
+        android:background="#FFFFFF">
+
         <TableRow
-            android:background="#000000"
             android:layout_width="fill_parent"
             android:layout_height="0dp"
             android:layout_margin="1dp"
             android:layout_weight="1"
-            >
-
+            android:background="#000000">
 
 
         </TableRow>
@@ -28,63 +27,47 @@
             android:id="@+id/textView4"
             android:layout_width="wrap_content"
             android:layout_height="30dp"
-            android:text="教科名"
             android:gravity="center"
-            android:textStyle="bold"
-            />
+            android:text="@string/教科名"
+            android:textStyle="bold" />
 
         <Button
             android:id="@+id/button0"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="戻る" />
+            android:text="@string/戻る" />
 
     </TableRow>
 
     <TableRow
-        android:background="#000000"
         android:layout_width="fill_parent"
         android:layout_height="0dp"
         android:layout_margin="1dp"
         android:layout_weight="0"
 
-        >
+        android:background="#000000">
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="150dp"
-            android:textAppearance="?android:attr/textAppearanceLarge"
-            android:text="前期中間"
-            android:layout_margin="1dp"
             android:layout_column="0"
+            android:layout_margin="1dp"
             android:background="#FFFFFF"
-            android:textStyle="bold"
             android:gravity="center"
-            />
+            android:text="@string/前期中間"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textStyle="bold" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="150dp"
-            android:textAppearance="?android:attr/textAppearanceLarge"
-            android:text=" 前期末 "
-            android:layout_margin="1dp"
             android:layout_column="1"
+            android:layout_margin="1dp"
             android:background="#FFFFFF"
             android:gravity="center"
-            android:textStyle="bold"
-            />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="150dp"
+            android:text="@string/前期末"
             android:textAppearance="?android:attr/textAppearanceLarge"
-            android:text="後期中間"
-            android:layout_margin="1dp"
-            android:background="#FFFFFF"
-            android:gravity="center"
-            android:textStyle="bold"
-            android:layout_column="2"
-            />
+            android:textStyle="bold" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -93,19 +76,29 @@
             android:layout_margin="1dp"
             android:background="#FFFFFF"
             android:gravity="center"
-            android:text="  学年末  "
+            android:text="@string/p"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:layout_column="2"
+            android:layout_margin="1dp"
+            android:background="#FFFFFF"
+            android:gravity="center"
+            android:text="@string/学年末"
             android:textAppearance="?android:attr/textAppearanceLarge"
             android:textStyle="bold" />
 
     </TableRow>
 
     <TableRow
-        android:background="#000000"
         android:layout_width="fill_parent"
         android:layout_height="0dp"
         android:layout_margin="1dp"
         android:layout_weight="0"
-        >
+        android:background="#000000">
 
         <EditText
             android:id="@+id/tenn1"
@@ -116,7 +109,7 @@
             android:background="#FFFFFF"
             android:gravity="center"
             android:inputType="number"
-            android:text="00"
+            android:text="@string/_00"
             android:textAppearance="?android:attr/textAppearanceLarge" />
 
         <EditText
@@ -128,7 +121,7 @@
             android:background="#FFFFFF"
             android:gravity="center"
             android:inputType="number"
-            android:text="00"
+            android:text="@string/_00"
             android:textAppearance="?android:attr/textAppearanceLarge" />
 
         <EditText
@@ -140,7 +133,7 @@
             android:background="#FFFFFF"
             android:gravity="center"
             android:inputType="number"
-            android:text="00"
+            android:text="@string/_00"
             android:textAppearance="?android:attr/textAppearanceLarge" />
 
         <EditText
@@ -152,7 +145,7 @@
             android:background="#FFFFFF"
             android:gravity="center"
             android:inputType="number"
-            android:text="00"
+            android:text="@string/_00"
             android:textAppearance="?android:attr/textAppearanceLarge" />
 
     </TableRow>
@@ -162,50 +155,45 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:onClick="goukei"
-        android:text="決定" />
+        android:text="@string/決定" />
 
     <TextView
         android:id="@+id/TextView0"
         android:layout_width="132dp"
         android:layout_height="50dp"
-        android:text="-合計点数-"
         android:gravity="center"
-        android:textStyle="bold"
-        />
+        android:text="@string/合計点数"
+        android:textStyle="bold" />
 
     <TextView
         android:id="@+id/TextView1"
         android:layout_width="132dp"
         android:layout_height="50dp"
-        android:text="＜実際の合計点数の表示＞"
         android:gravity="center"
-        android:textStyle="bold"
-        />
+        android:text="@string/合計"
+        android:textStyle="bold" />
 
     <TextView
         android:id="@+id/textView2"
         android:layout_width="132dp"
         android:layout_height="50dp"
-        android:text="-単位取得までの点数-"
         android:gravity="center"
-        android:textStyle="bold"
-        />
+        android:text="@string/単位点数"
+        android:textStyle="bold" />
 
     <TextView
         android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="50dp"
-        android:text="＜２４０−合計点数の計算結果＞"
         android:gravity="center"
-        android:textStyle="bold"
-        />
+        android:text="@string/点数計算"
+        android:textStyle="bold" />
 
     <TableRow
-        android:background="#FFFFFF"
         android:layout_width="fill_parent"
         android:layout_height="3dp"
         android:layout_margin="1dp"
         android:layout_weight="0.05"
-        />
+        android:background="#FFFFFF" />
 
 </TableLayout>
