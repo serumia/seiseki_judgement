@@ -18,14 +18,19 @@ class MainActivity : AppCompatActivity() {
         sub1.setOnClickListener{
             val intent = Intent(this, sub1_Activity::class.java)
         startActivity(intent)
-    }
 
-    }
+        button1.setOnClickListener{
+            val x: Array<EditText> = arrayOf(tenn1, tenn2, tenn3, tenn4)
+            val sum = x[0] + x[1] + x[2] + x[3]
+            TextView1.text = sum.toString()
+        }
+        }
+        }
 
-    fun goukei(view: View) {
-        val x: Array<EditText> = arrayOf(tenn1, tenn2, tenn3, tenn4)
-        val sum = x[0] + x[1] + x[2] + x[3]
-        TextView1.text = sum.toString()
+//    fun goukei(view: View) {
+//        val x: Array<EditText> = arrayOf(tenn1, tenn2, tenn3, tenn4)
+//        val sum = x[0] + x[1] + x[2] + x[3]
+//        TextView1.text = sum.toString()
     }
 
     private fun toString(sum: Unit) {}
