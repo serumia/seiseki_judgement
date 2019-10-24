@@ -17,7 +17,7 @@ class MainActivity : AppCompatActivity() {
 
     }
 
-    fun sub1tapped(view: View) {
+    fun sub1tapped(view: View?) {
         val intent = Intent(this, sub1Activity::class.java)
         startActivity(intent)
     }
