@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import android.widget.EditText
+import kotlinx.android.synthetic.main.activity_main.*
 import kotlinx.android.synthetic.main.activity_sub_1.*
 
 
@@ -14,12 +15,11 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-
+        sub1.setOnClickListener{
+            val intent = Intent(this, sub1_Activity::class.java)
+        startActivity(intent)
     }
 
-    fun sub1tapped(view: View?) {
-        val intent = Intent(this, sub1Activity::class.java)
-        startActivity(intent)
     }
 
     fun goukei(view: View) {
