@@ -11,3 +11,4 @@ class sub1Activity : AppCompatActivity() {
     }
 
 }
+
