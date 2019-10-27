@@ -20,7 +20,7 @@ class MainActivity : AppCompatActivity() {
 
         button1.setOnClickListener{
             val x: Array<EditText> = arrayOf(tenn1, tenn2, tenn3, tenn4)
-            var sum = x[0] + x[1] + x[2] + x[3]
+            val sum = x[0] + x[1] + x[2] + x[3]
             TextView1.text = sum.toString()
         }
         }
